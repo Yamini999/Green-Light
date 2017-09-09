@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+    div{
+        
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+<form method="post" action="login.jsp">
+<center>
+<table border="1" width="30%" cellpadding="3">
+<thead
+<tr
+<th colspan="2">Login Here</th>
+</tr>
+</thead>
+
+
+<tbody>
+<tr>
+<td>User Name</td>
+<td><input type="text" name="uname" value="" /></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pass" value="" /></td>
+</tr>
+<tr>
+<td><input type="submit" value="Lights ON" /></td>
+<td><input type="reset" value="Reset" /></td>
+</tr>
+
+<td colspan="2"><a href="reg.jsp">forgot password</a></td>
+
+</tbody>
+</table>
+</center>
+    </form>
+    </div>
+</body>
+</html>
